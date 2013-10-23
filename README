@@ -1,0 +1,25 @@
+This project is an adaptation of the QR example from http://shiffman.net/p5/qrcode-processing/
+to get it to work with an Sweex webcam which only outputs 640x480 
+
+For ubuntu 12.04 it needs the gstreamer video for processing package (http://gsvideo.sourceforge.net/)
+which in turn needs the following gstreamer packages 
+gir1.2-gstreamer-0.10 
+gstreamer0.10-alsa
+gstreamer0.10-ffmpeg
+gstreamer0.10-gconf
+gstreamer0.10-gnomevfs
+gstreamer0.10-nice
+gstreamer0.10-plugins-bad
+gstreamer0.10-plugins-base
+gstreamer0.10-plugins-good
+gstreamer0.10-plugins-ugly
+gstreamer0.10-pulseaudio
+gstreamer0.10-x
+libgstreamer-plugins-bad0.10-0
+libgstreamer-plugins-bad0.10-dev 
+libgstreamer-plugins-base0.10-0
+libgstreamer-plugins-base0.10-dev
+libgstreamer0.10-0
+libgstreamer0.10-dev 
+
+Just in case use v4l-ctl or v4l-dbg (v4l-utils package) for webcam debugging 
